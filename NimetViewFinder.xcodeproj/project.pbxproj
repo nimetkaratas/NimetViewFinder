@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		18B486E022C26E4000F2B323 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B486DF22C26E4000F2B323 /* AppDelegate.swift */; };
-		18B486E222C26E4000F2B323 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B486E122C26E4000F2B323 /* ViewController.swift */; };
 		18B486E522C26E4000F2B323 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18B486E322C26E4000F2B323 /* Main.storyboard */; };
 		18B486E822C26E4000F2B323 /* NimetViewFinder.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 18B486E622C26E4000F2B323 /* NimetViewFinder.xcdatamodeld */; };
 		18B486EA22C26E4300F2B323 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18B486E922C26E4300F2B323 /* Assets.xcassets */; };
@@ -18,7 +17,6 @@
 /* Begin PBXFileReference section */
 		18B486DC22C26E4000F2B323 /* NimetViewFinder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NimetViewFinder.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		18B486DF22C26E4000F2B323 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		18B486E122C26E4000F2B323 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		18B486E422C26E4000F2B323 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		18B486E722C26E4000F2B323 /* NimetViewFinder.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = NimetViewFinder.xcdatamodel; sourceTree = "<group>"; };
 		18B486E922C26E4300F2B323 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -57,7 +55,6 @@
 			isa = PBXGroup;
 			children = (
 				18B486DF22C26E4000F2B323 /* AppDelegate.swift */,
-				18B486E122C26E4000F2B323 /* ViewController.swift */,
 				18B486E322C26E4000F2B323 /* Main.storyboard */,
 				18B486E922C26E4300F2B323 /* Assets.xcassets */,
 				18B486EB22C26E4300F2B323 /* LaunchScreen.storyboard */,
@@ -138,7 +135,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				18B486E222C26E4000F2B323 /* ViewController.swift in Sources */,
 				18B486E822C26E4000F2B323 /* NimetViewFinder.xcdatamodeld in Sources */,
 				18B486E022C26E4000F2B323 /* AppDelegate.swift in Sources */,
 			);
