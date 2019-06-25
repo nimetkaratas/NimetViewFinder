@@ -12,6 +12,7 @@
 		18B486E822C26E4000F2B323 /* NimetViewFinder.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 18B486E622C26E4000F2B323 /* NimetViewFinder.xcdatamodeld */; };
 		18B486EA22C26E4300F2B323 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18B486E922C26E4300F2B323 /* Assets.xcassets */; };
 		18B486ED22C26E4300F2B323 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18B486EB22C26E4300F2B323 /* LaunchScreen.storyboard */; };
+		18B486F722C281CC00F2B323 /* AddPhotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B486F622C281CC00F2B323 /* AddPhotoViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		18B486E922C26E4300F2B323 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		18B486EC22C26E4300F2B323 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		18B486EE22C26E4300F2B323 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18B486F622C281CC00F2B323 /* AddPhotoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddPhotoViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 				18B486EB22C26E4300F2B323 /* LaunchScreen.storyboard */,
 				18B486EE22C26E4300F2B323 /* Info.plist */,
 				18B486E622C26E4000F2B323 /* NimetViewFinder.xcdatamodeld */,
+				18B486F622C281CC00F2B323 /* AddPhotoViewController.swift */,
 			);
 			path = NimetViewFinder;
 			sourceTree = "<group>";
@@ -136,6 +139,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				18B486E822C26E4000F2B323 /* NimetViewFinder.xcdatamodeld in Sources */,
+				18B486F722C281CC00F2B323 /* AddPhotoViewController.swift in Sources */,
 				18B486E022C26E4000F2B323 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -48,7 +48,7 @@
         <!--Add New Photo-->
         <scene sceneID="402-2Q-gP7">
             <objects>
-                <viewController id="K9A-oG-kAZ" sceneMemberID="viewController">
+                <viewController id="K9A-oG-kAZ" customClass="AddPhotoViewController" customModule="NimetViewFinder" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="0Q4-uL-CwF">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -62,10 +62,16 @@
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4QX-er-RpY">
                                 <rect key="frame" x="50" y="479" width="54" height="30"/>
                                 <state key="normal" title="Camera"/>
+                                <connections>
+                                    <action selector="takePhotoTapped:" destination="K9A-oG-kAZ" eventType="touchUpInside" id="gy2-yb-CNR"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6k3-Rs-IiE">
                                 <rect key="frame" x="163" y="479" width="88" height="30"/>
                                 <state key="normal" title="PhotoLibrary"/>
+                                <connections>
+                                    <action selector="findPhotoTapped:" destination="K9A-oG-kAZ" eventType="touchUpInside" id="fjr-Oa-ITF"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Tgh-gB-unE">
                                 <rect key="frame" x="311" y="479" width="52" height="30"/>
@@ -86,9 +92,13 @@
                             <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QCg-Gg-kDu">
                                 <rect key="frame" x="325" y="405" width="38" height="30"/>
                                 <state key="normal" title="Save!"/>
+                                <connections>
+                                    <action selector="savePhotoTapped:" destination="K9A-oG-kAZ" eventType="touchUpInside" id="PgC-yn-6At"/>
+                                </connections>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="backgroundColor" red="0.94871503114700317" green="0.98145967721939087" blue="0.98155671358108521" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="tintColor" red="0.85703371049999999" green="0.094067944880000004" blue="0.80869628810000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="jjo-mm-W66" firstAttribute="centerX" secondItem="0Q4-uL-CwF" secondAttribute="centerX" id="8Rk-kS-BoE"/>
                             <constraint firstItem="n2W-NC-5B2" firstAttribute="leading" secondItem="10B-NR-shG" secondAttribute="trailing" constant="8" id="9gX-7N-DG9"/>
@@ -112,6 +122,10 @@
                     </toolbarItems>
                     <navigationItem key="navigationItem" title="Add New Photo" id="WKM-85-pua"/>
                     <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
+                    <connections>
+                        <outlet property="captionText" destination="n2W-NC-5B2" id="mfB-SI-YN0"/>
+                        <outlet property="newImage" destination="jjo-mm-W66" id="VjZ-UO-ZOm"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="GbB-3K-LGE" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
